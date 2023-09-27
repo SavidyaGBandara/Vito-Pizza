@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cart</title>
+        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="cart.css" />
+    </head>
+    <body>
+        <header>
+            <section>
+                <a href="./index.php">Home</a>
+                <a href="./index.php#products">Shop</a>
+                <a href="./index.php#offers">Offers</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./about.html">About Us</a>
+            </section>
+            <a href="./cart.html"> <img src="./cart.jpg" alt="cart" /></a>
+        </header>
+        <div id="cnt-main">
+            <section>
+                <form action="#">
+                    <h1>Billing Details</h1>
+                    <input type="text" placeholder="Full Name" required />
+                    <input type="text" placeholder="Address" required />
+                    <section>
+                        <input type="text" placeholder="City" required />
+                        <input type="text" placeholder="Zip Code" required />
+                    </section>
+                    <input type="tel" placeholder="Phone Number" required />
+                    <input type="email" placeholder="Email Address" required />
+                    <h1>Your Order</h1>
+                    <table id="cart"></table>
+                    <input id="cash-od" type="checkbox" /> <label for="cash-od">Cash On delivery</label>
+                    <input type="submit" value="Place order" />
+                </form>
+            </section>
+        </div>
+        <footer></footer>
+        <script src="./cart.js"></script>
+    </body>
+</html>

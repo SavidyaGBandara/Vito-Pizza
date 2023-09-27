@@ -1,0 +1,99 @@
+#cnt-main {
+    width: 100%;
+    background-image: url("./contact-about-bg.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+#cnt-main > section {
+    padding: 20px;
+    padding-top: 100px;
+    margin: auto;
+    width: fit-content;
+    z-index: 8;
+    font-size: min(2vh, 2vw);
+}
+
+form {
+    padding: 20px;
+    /* background-color: #ffffff80; */
+    margin-bottom: 100px;
+}
+
+form > h1 {
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+
+form input {
+    width: 80%;
+    padding: 5px;
+    border: none;
+    margin: 10px 5px;
+    border-radius: 8px;
+    display: block;
+    padding-inline: 10px;
+}
+
+form section {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+form section input {
+    width: calc(40% - 15px);
+}
+
+table {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    margin: 20px 0px;
+}
+
+table h1 {
+    text-align: center;
+    width: 200px;
+}
+
+td {
+    padding: 5px;
+    font-size: 130%;
+    padding-inline: 15px;
+    font-weight: 600;
+}
+
+td:nth-last-child(1) {
+    font-size: 100%;
+    color: red;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    height: 1.5em;
+    width: 1.5em;
+    float: left;
+    height: 15px;
+    margin: 0.3em 0px;
+}
+
+label {
+    line-height: 1.5em;
+    padding-inline: 5px;
+    font-size: 140%;
+    color: white;
+}
+
+input[type="submit"] {
+    margin: 10px auto;
+    padding: 8px;
+    border-radius: 8px;
+    display: block;
+    padding-inline: 10px;
+    background-color: #99260c;
+    border: none;
+    color: white;
+}
